@@ -1,0 +1,269 @@
+/*start header*/
+header{
+background-image: url(pexels-photo-1536619.jpeg);
+background-repeat: no-repeat; 
+background-size:cover;
+height: 800px;
+color: RGB(55,55,130);
+text-align:left;
+background-color: RGB(255,255,255);
+
+
+    }
+h1{
+padding-top: 200px;
+padding-left: 100px;
+}
+.info{
+    margin-left: 100px;
+    width: 500px;
+    
+}
+button{
+    margin-left: 150px;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 100px;
+    color: RGB(255,255,255); 
+    background-color: RGB(55,55,130);
+}
+/*end header*/
+
+
+h2{
+    color: RGB(55,55,130);
+    text-align: center;
+    font-family: fantasy;
+    padding: 20px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    color: RGB(55,55,130);
+
+    
+}
+
+/*section1*/
+
+.section1{
+    background-color: RGB(244,244,244);
+    margin-bottom: 50px;
+    height: 800px;
+    padding: inherit;
+}
+.hobbies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    text-align: center;
+    color: RGB(55,55,130);
+    width: 900px;
+    margin: auto;
+    padding-top: 
+
+    
+}
+.p1{
+    text-align: center;
+    padding:20px;
+    color: RGB(255,255,255);
+
+    
+}
+.types{
+    border: 1px ;
+    height: 400px;
+    background-color: RGB(255,255,255);
+    width: 200px;
+    padding-top:50px;
+    
+    
+    
+}
+/*section2*/
+
+.section2{
+    background-color: RGB(244,244,244);
+    margin-bottom: 50px;
+    height: 600px;
+    padding: inherit;
+}
+.MoreInfo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.img{
+    margin: 100px 0px 150px 300px;
+}
+.Icons{
+    text-align: center;
+}
+
+.About{ 
+  margin-top: 80px;
+  text-align: left;
+
+}
+
+/*section3*/
+
+.section3{
+    background-color: RGB(244,244,244);
+    margin-bottom: 50px;
+    height: 600px;
+    padding: inherit;
+}
+.Pictures{
+text-align: center;
+margin: 50px;    
+}
+.communication{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ grid-gap: 10px;
+ text-align: center;
+ background-color: RGB(255,255,255);
+ height: 600px;
+
+}
+.FORM{
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+    margin: auto;
+    width: 350px;
+}
+.text2{
+    margin: auto;
+    width: 350px;
+    height: 100px;
+    
+}
+.button1{
+margin: auto;
+}
+.Contact{
+float: left;
+margin-top: 50px;
+}
+/* start footer*/
+
+.Footer{
+    background-color: RGB(255,242,5);
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+/*end footer*/
+
+
+
+/*Hover*/
+.button:hover {
+  cursor: pointer;
+  background-color: RGB(216,31,164);
+  transition: all 0.2s ease-in-out;
+}
+.button1:hover {
+  cursor: pointer;
+  background-color: RGB(255,242,5);
+  transition: all 0.2s ease-in-out;
+}
+.types:hover{
+    background-color: RGB(43,43,43);
+     transition: all 0.5s ease-in-out;
+    color: RGB(255,255,255);
+
+}
+
+.Pictures:hover{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+/*responsive*/
+@media (max-width: 767px) {
+    header{
+     width: 470px;
+     margin: 0px;
+    background-size:470px 600px;
+        height: 600px;
+    } 
+    h1{
+        text-align: center;
+        margin: auto;
+    }
+    .info{
+        margin: 0;
+        width: 450px;
+    }
+    .button{
+    margin-left: 200px;
+    }
+    .h2{
+      text-align: center;
+    }
+    .section1{
+     width: 470px;
+     margin: 0px;
+     height: 2000px;;    
+
+    }
+    .hobbies{
+    display: block;
+    margin-left: 150px;
+}
+    .types{
+        height: 300px;
+        margin-top: 50px;
+    }
+    p{
+        text-align: center;
+        margin: auto;
+    }
+     p1{
+        text-align: center;
+        margin: auto;
+    }
+    .section2{
+     width: 470px;
+     margin: 0px;
+     margin-top: 50px;    
+     height: 1000px;;    
+
+    }
+    .img{
+        padding: 50px;
+    }
+    .MoreInfo{
+        
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .section3{
+     width: 470px;
+     margin: 0px;
+     height: 1200px;   
+
+    }
+    .img{
+        margin: auto;
+    }
+   
+    .communication{
+         text-align: center;
+        margin: auto;
+        display: block;
+    }
+}
+    
+
+    
